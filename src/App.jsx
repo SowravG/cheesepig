@@ -1,7 +1,7 @@
 import pic1 from './assets/memory1.png'
 import pic2 from './assets/memory2.png'
 import pic3 from './assets/memory4.png'
-import pic4 from './assets/memory3.jpg'
+import pic4 from './assets/memory3.png'
 import React from "react";
 export default function LoveMemoryHunt() {
   const funnyPopups = [
@@ -171,7 +171,7 @@ export default function LoveMemoryHunt() {
         {found.length === memories.length && (
           <div className="mt-14 text-center bg-gradient-to-r from-pink-500/20 to-purple-500/20 rounded-[32px] p-10 border border-pink-500/20 animate-bounce">
             <h2 className="text-4xl font-bold mb-4">
-              Final Reward Unlocked ❤️
+              Final Reward Unlocked 
             </h2>
 
             <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-6">
